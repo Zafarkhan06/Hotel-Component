@@ -1,0 +1,99 @@
+.card {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3), 0 0 32px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+
+.image-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.card-body {
+  height: 30%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest-name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  color: #011e3f;
+  margin-top: 50px;
+}
+.rest-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: 0px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  color: #f7d03c;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.reviewss {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #91a0ac;
+  margin-top: 0px;
+  //align-item: center;
+}

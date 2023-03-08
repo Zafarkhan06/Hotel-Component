@@ -1,0 +1,101 @@
+.image-top {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.onImage {
+  position: absolute;
+  width: 587px;
+  height: 69px;
+  //left: 426px;
+  left: 30%;
+  //right: 50%;
+  top: 170px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 69px;
+}
+.searchBarContainer {
+  position: absolute;
+  bottom: 0;
+  width: 30%;
+}
+.hed {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #011e3f;
+  margin-bottom: 50px;
+}
+.cardDiv {
+  position: relative;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.restCardContainer {
+  display: flex;
+  //flex-direction: row;
+  gap: 80px;
+  margin-top: 10px;
+}
+.hed1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #ff5f15;
+  box-sizing: border-box;
+  border: 3px solid #011E3F;
+  border-radius: 107px;
+  height: 80px;
+  width: 300px;
+  display: inline-block;
+  text-align: center !important;
+}
+.restCardContainers {
+  display: flex;
+  //flex-direction: row;
+  gap: 0px;
+  margin-top: 10px;
+}
+.smallCon
+{
+  margin-left: -60px;
+  margin-right: -60px;
+}
+.he1d1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #011e3f;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+.hed2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #ff5f15;
+  box-sizing: border-box;
+  border: 3px solid #011E3F;
+  border-radius: 107px;
+  height: 80px;
+  width: 300px;
+  display: inline-block;
+  text-align: center !important;
+  margin-top: 100px;
+}
